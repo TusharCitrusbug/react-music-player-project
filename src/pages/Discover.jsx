@@ -1,6 +1,8 @@
 import { Error, Loader, SongCard } from "../components";
 import { genres } from '../assets/constants';
+import { useTopChartsQuery } from "../redux/services/shazamCore";
 const Discover = () => {
+    const { data, isFetching, error } = useTopChartsQuery()
     const genereTitle = 'Pop'
     return (
 
