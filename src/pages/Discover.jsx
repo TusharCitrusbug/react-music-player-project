@@ -7,8 +7,6 @@ const Discover = () => {
 
     const { data, error, isLoading } = useGetTopChartsQuery();
 
-    console.log(activeSong, "3333333333333333333");
-
     const genereTitle = 'Pop'
     if (isLoading) {
         return <Loader title="Loading songs......." />

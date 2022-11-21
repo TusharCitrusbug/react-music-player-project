@@ -1,21 +1,3 @@
-
-// import axios from "axios";
-// const options = {
-//     method: 'GET',
-//     url: 'https://shazam-core.p.rapidapi.com/v1/charts/genre-world',
-//     params: { genre_code: 'POP' },
-//     headers: {
-//         'X-RapidAPI-Key': '0043c1710dmsha7937c5f85548cbp16df2ejsn4b7a9e09fb08',
-//         'X-RapidAPI-Host': 'shazam-core.p.rapidapi.com'
-//     }
-// };
-
-// axios.request(options).then(function (response) {
-//     console.log(response.data);
-// }).catch(function (error) {
-//     console.error(error);
-// });
-
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 
 export const shazamCoreApi = createApi({
